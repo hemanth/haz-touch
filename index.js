@@ -6,6 +6,8 @@ module.exports = (function(){
 	if(hazWindow && hazDocument) {
 		return 'DocumentTouch' in window &&
 		document instanceof DocumentTouch ||
-		'ontouchstart' in window;
+		'ontouchstart' in window ||
+		navigator.MaxTouchPoints > 0 ||
+		navigator.msMaxTouchPoints > 0;
 	}
 }());
