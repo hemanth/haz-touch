@@ -7,7 +7,7 @@ module.exports = (function(){
 		return 'DocumentTouch' in window &&
 		document instanceof DocumentTouch ||
 		'ontouchstart' in window ||
-		navigator.MaxTouchPoints > 0 ||
+		navigator.maxTouchPoints > 0 ||
 		navigator.msMaxTouchPoints > 0;
 	}
 }());
