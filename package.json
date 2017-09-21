@@ -1,6 +1,6 @@
 {
   "name": "haz-touch",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Is it a touchable device?",
   "license": "MIT",
   "repository": "hemanth/haz-touch",
